@@ -39,7 +39,7 @@ public class FileUpload {
         }
         return ResponseEntity.ok().body(filenames);
     }
-
+//888888888888888888888888888888888888888888888
     @GetMapping("/download/{filename}")
     public ResponseEntity<Resource> downloadFiles(@PathVariable("filename")String filename)throws IOException {
 
